@@ -71,51 +71,72 @@ def process_products(input_file, output_file):
         with open(output_file, 'w', encoding='utf-8') as output_file:
             json.dump(output_data, output_file)
 
+import json
+import time
+import os
+
 def process_food_nutrients(input_file, output_file):
     with open(input_file, 'r', encoding='utf-8') as input_file:
         input_data = json.load(input_file)
 
-        # this will store all food nutrients
-        food_nutrients = []
+    food_nutrients = set()
+    num_branded_foods = len(input_data['BrandedFoods'])
+    processed_foods = 0
 
-        for branded_food in input_data['BrandedFoods']:
+    start_time = time.time()
 
-            # here we want to grab the id of the product to insert into the food_nutrient object
-            fdcId = branded_food['fdcId']
-            for food_nutrient in branded_food['foodNutrients']:
+    for branded_food in input_data['BrandedFoods']:
+        fdcId = branded_food['fdcId']
+        for food_nutrient in branded_food['foodNutrients']:
+            food_nutrient_id = food_nutrient['id']
+            nutrient_id = food_nutrient['nutrient']['id']
+            amount = food_nutrient['amount']
 
-                # grab the data from the food nutrient object as well as the nutrient id
-                food_nutrient_id = food_nutrient['id']
-                nutrient_id = food_nutrient['nutrient']['id']
-                amount = food_nutrient['amount']
+            food_nutrient_to_add = {
+                'product_id': fdcId,
+                'food_nutrient_id': food_nutrient_id, 
+                'nutrient_id': nutrient_id,
+                'amount': amount
+            }
 
-                # adding fields to the nutrient object to the list
-                food_nutrient_to_add = {
-                    'product_id': fdcId,
-                    'food_nutrient_id': food_nutrient_id,
-                    'nutrient_id': nutrient_id,
-                    'amount': amount
-                }
+            food_nutrients.add(json.dumps(food_nutrient_to_add, sort_keys=True))
+            processed_foods += 1
 
-                # now check for duplicates
-                if food_nutrient_to_add not in food_nutrients:
-                    food_nutrients.append(food_nutrient_to_add)
+            # Calculate progress
+            progress = processed_foods / num_branded_foods * 100
+            elapsed_time = time.time() - start_time
 
-        # Write the results to the output file
-        output_data = {
-            'foodNutrients': food_nutrients
-        }
-        with open(output_file, 'w', encoding='utf-8') as output_file:
-            json.dump(output_data, output_file)
+            # Calculate estimated time remaining
+            avg_time_per_food = elapsed_time / processed_foods
+            remaining_foods = num_branded_foods - processed_foods
+            estimated_time_remaining = avg_time_per_food * remaining_foods
+
+            # Clear previous line in the console
+            os.system('cls' if os.name == 'nt' else 'clear')
+
+            # Print progress information
+            print(f'Progress: {progress:.2f}%')
+            print(f'Estimated time remaining: {estimated_time_remaining:.2f} seconds')
+
+    food_nutrients = [json.loads(fn) for fn in food_nutrients]
+
+    output_data = {
+        'foodNutrients': food_nutrients
+    }
+    with open(output_file, 'w', encoding='utf-8') as output_file:
+        json.dump(output_data, output_file)
+
 
                 
 
         
-
-
-# process_nutrients('data/input_data/sample_usda_data.json', 'data/processed_data/nutrients.json')
-
-process_products('data/input_data/sample_usda_data.json', 'data/processed_data/products.json')
-
-# process_food_nutrients('data/input_data/sample_usda_data.json', 'data/processed_data/food_nutrients.json')
+input_file = 'data/input_data/sample_usda_data.json'
+# print('program starting')
+# process_products(input_file, 'data/processed_data/products.json')
+# print('products complete')
+# process_nutrients(input_file, 'data/processed_data/nutrients.json')
+# print('nutrients complete')
+print('program starting')
+process_food_nutrients(input_file, 'data/processed_data/food_nutrients.json')
+print('program complete')     
 
