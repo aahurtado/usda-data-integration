@@ -1,0 +1,11 @@
+{
+  "min_product_id": 344646,
+  "max_product_id": 2512370,
+  "min_food_nutrient_id": 2877917,
+  "max_food_nutrient_id": 31220244,
+  "min_nutrient_id": 1003,
+  "max_nutrient_id": 2000,
+  "min_amount": 0.0,
+  "max_amount": 393000000.0,
+  "total_food_nutrients": 5515437
+}

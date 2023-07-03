@@ -1,0 +1,102 @@
+{
+  "Nutrients": [
+    {
+      "id": 1003,
+      "number": "203",
+      "name": "Protein",
+      "rank": 600,
+      "unitName": "g"
+    },
+    {
+      "id": 1004,
+      "number": "204",
+      "name": "Total lipid (fat)",
+      "rank": 800,
+      "unitName": "g"
+    },
+    {
+      "id": 1005,
+      "number": "205",
+      "name": "Carbohydrate, by difference",
+      "rank": 1110,
+      "unitName": "g"
+    },
+    {
+      "id": 1008,
+      "number": "208",
+      "name": "Energy",
+      "rank": 300,
+      "unitName": "kcal"
+    },
+    {
+      "id": 2000,
+      "number": "269",
+      "name": "Sugars, total including NLEA",
+      "rank": 1510,
+      "unitName": "g"
+    },
+    {
+      "id": 1079,
+      "number": "291",
+      "name": "Fiber, total dietary",
+      "rank": 1200,
+      "unitName": "g"
+    },
+    {
+      "id": 1087,
+      "number": "301",
+      "name": "Calcium, Ca",
+      "rank": 5300,
+      "unitName": "mg"
+    },
+    {
+      "id": 1089,
+      "number": "303",
+      "name": "Iron, Fe",
+      "rank": 5400,
+      "unitName": "mg"
+    },
+    {
+      "id": 1093,
+      "number": "307",
+      "name": "Sodium, Na",
+      "rank": 5800,
+      "unitName": "mg"
+    },
+    {
+      "id": 1104,
+      "number": "318",
+      "name": "Vitamin A, IU",
+      "rank": 7500,
+      "unitName": "IU"
+    },
+    {
+      "id": 1162,
+      "number": "401",
+      "name": "Vitamin C, total ascorbic acid",
+      "rank": 6300,
+      "unitName": "mg"
+    },
+    {
+      "id": 1253,
+      "number": "601",
+      "name": "Cholesterol",
+      "rank": 15700,
+      "unitName": "mg"
+    },
+    {
+      "id": 1257,
+      "number": "605",
+      "name": "Fatty acids, total trans",
+      "rank": 15400,
+      "unitName": "g"
+    },
+    {
+      "id": 1258,
+      "number": "606",
+      "name": "Fatty acids, total saturated",
+      "rank": 9700,
+      "unitName": "g"
+    }
+  ]
+}

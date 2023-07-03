@@ -1,0 +1,79 @@
+{
+  "Products": [
+    {
+      "fdcId": 1106281,
+      "avalibleDate": null,
+      "brandOwner": "MICHELE'S",
+      "dataSource": "LI",
+      "description": "",
+      "gtinUpc": "1633636543505",
+      "householdServingFullText": null,
+      "ingredients": "ORGANIC ROLLED OATS, ORGANIC UNSWEETENED COCONUT, ORGANIC BROWN SUGAR, ORGANIC SEEDLESS RAISINS, SUNFLOWER SEEDS, WALNUTS, EXPELLER-PRESSED NON-GMO CANOLA OIL, FILTERED WATER, PURE VANILLA EXTRACT, SPICES, SEA SALT.",
+      "modifiedDate": "4/26/2020",
+      "publicationDate": "11/13/2020",
+      "servingSize": 28,
+      "servingSizeUnit": "g",
+      "brandedFoodCategory": "Cereal"
+    },
+    {
+      "fdcId": 1106304,
+      "avalibleDate": null,
+      "brandOwner": "VEETEE",
+      "dataSource": "LI",
+      "description": "SUPREME BASMATI RICE",
+      "gtinUpc": "8906004982514",
+      "householdServingFullText": null,
+      "ingredients": "RIZ BASMATI RICE.",
+      "modifiedDate": "4/26/2020",
+      "publicationDate": "11/13/2020",
+      "servingSize": 45,
+      "servingSizeUnit": "g",
+      "brandedFoodCategory": "Rice"
+    },
+    {
+      "fdcId": 1106312,
+      "avalibleDate": null,
+      "brandOwner": "Cookies Food Products Inc.",
+      "dataSource": "LI",
+      "description": "ORIGINAL SWEET & SMOKY BAR \"\"B\"\" \"\"Q\"\" SAUCE, ORIGINAL",
+      "gtinUpc": "076014101088",
+      "householdServingFullText": null,
+      "ingredients": "TOMATO PASTE, WATER, SUGAR, VINEGAR, CORN SYRUP, SALT, LIQUID SMOKE, WORCESTERSHIRE SAUCE (WATER, VINEGAR, SALT, SUGAR, MALIC ACID, MOLASSES, CITRIC ACID, DEHYDRATED ONION AND GARLIC, FOOD GUMS (ARABIC, XANTHAN, GUAR, CELLULOSE), SPICES, DEXTROSE, NATURAL FLAVORS, AND SMOKE FLAVOR), SPICES AND SODIUM BENZOATE AS A PRESERVATIVE.",
+      "modifiedDate": "4/26/2020",
+      "publicationDate": "11/13/2020",
+      "servingSize": 30,
+      "servingSizeUnit": "g",
+      "brandedFoodCategory": "Ketchup, Mustard, BBQ & Cheese Sauce"
+    },
+    {
+      "fdcId": 1106456,
+      "avalibleDate": null,
+      "brandOwner": "CRY BABY",
+      "dataSource": "LI",
+      "description": "EGGS, EGG SHAPED BUBBLE GUM FILLED WITH EXTRA SOUR FLAVOR CRYSTALS",
+      "gtinUpc": "059642000503",
+      "householdServingFullText": null,
+      "ingredients": "SUGAR, CORN SYRUP (GLUCOSE), GUM BASE, DEXTROSE, CITRIC ACID, TAPIOCA DEXTRIN, CONFECTIONERS GLAZE, CARNAUBA WAX, ARTIFICIAL FLAVORS, ARTIFICIAL COLORS,(FD&C RD 40, BLUE 1, YELLOW 5, YELLOW 6), CORN STARCH, BHT (TO MAINTAIN FRESHNESS). SOY MAY BE PRESENT.",
+      "modifiedDate": "4/26/2020",
+      "publicationDate": "11/13/2020",
+      "servingSize": 6,
+      "servingSizeUnit": "g",
+      "brandedFoodCategory": "Candy"
+    },
+    {
+      "fdcId": 1106457,
+      "avalibleDate": null,
+      "brandOwner": "DUBBLE BUBBLE",
+      "dataSource": "LI",
+      "description": "DUBBLE BUBBLE, BUBBLE GUM",
+      "gtinUpc": "059642932491",
+      "householdServingFullText": null,
+      "ingredients": "SUGAR, DEXTROSE, CORN SYRUP (GLUCOSE), GUM BASE, HIGH FRUCTOSE CORN SYRUP, ARTIFICIAL FLAVORS, ARTIFICIAL COLOR (FD&C RED 3), CORN STARCH, BHT (TO MAINTAIN FRESHNESS).",
+      "modifiedDate": "4/15/2020",
+      "publicationDate": "11/13/2020",
+      "servingSize": 6,
+      "servingSizeUnit": "g",
+      "brandedFoodCategory": "Chewing Gum & Mints"
+    }
+  ]
+}

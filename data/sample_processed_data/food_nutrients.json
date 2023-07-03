@@ -1,0 +1,328 @@
+{
+  "foodNutrients": [
+    {
+      "productId": 1106281,
+      "foodNutrientId": 13694818,
+      "nutrientId": 1003,
+      "amount": 10.7
+    },
+    {
+      "productId": 1106281,
+      "foodNutrientId": 13694819,
+      "nutrientId": 1004,
+      "amount": 25.0
+    },
+    {
+      "productId": 1106281,
+      "foodNutrientId": 13694820,
+      "nutrientId": 1005,
+      "amount": 57.1
+    },
+    {
+      "productId": 1106281,
+      "foodNutrientId": 13694821,
+      "nutrientId": 1008,
+      "amount": 500
+    },
+    {
+      "productId": 1106281,
+      "foodNutrientId": 13694822,
+      "nutrientId": 2000,
+      "amount": 21.4
+    },
+    {
+      "productId": 1106281,
+      "foodNutrientId": 13694823,
+      "nutrientId": 1079,
+      "amount": 7.1
+    },
+    {
+      "productId": 1106281,
+      "foodNutrientId": 13694824,
+      "nutrientId": 1087,
+      "amount": 71.0
+    },
+    {
+      "productId": 1106281,
+      "foodNutrientId": 13694825,
+      "nutrientId": 1089,
+      "amount": 3.86
+    },
+    {
+      "productId": 1106281,
+      "foodNutrientId": 13694826,
+      "nutrientId": 1093,
+      "amount": 161
+    },
+    {
+      "productId": 1106281,
+      "foodNutrientId": 13694827,
+      "nutrientId": 1104,
+      "amount": 0.0
+    },
+    {
+      "productId": 1106281,
+      "foodNutrientId": 13694828,
+      "nutrientId": 1162,
+      "amount": 0.0
+    },
+    {
+      "productId": 1106281,
+      "foodNutrientId": 13694829,
+      "nutrientId": 1253,
+      "amount": 0.0
+    },
+    {
+      "productId": 1106281,
+      "foodNutrientId": 13694830,
+      "nutrientId": 1257,
+      "amount": 0.0
+    },
+    {
+      "productId": 1106281,
+      "foodNutrientId": 13694831,
+      "nutrientId": 1258,
+      "amount": 7.14
+    },
+    {
+      "productId": 1106304,
+      "foodNutrientId": 13692295,
+      "nutrientId": 1003,
+      "amount": 8.89
+    },
+    {
+      "productId": 1106304,
+      "foodNutrientId": 13692296,
+      "nutrientId": 1004,
+      "amount": 0.0
+    },
+    {
+      "productId": 1106304,
+      "foodNutrientId": 13692297,
+      "nutrientId": 1005,
+      "amount": 80.0
+    },
+    {
+      "productId": 1106304,
+      "foodNutrientId": 13692298,
+      "nutrientId": 1008,
+      "amount": 356
+    },
+    {
+      "productId": 1106304,
+      "foodNutrientId": 13692299,
+      "nutrientId": 2000,
+      "amount": 4.44
+    },
+    {
+      "productId": 1106304,
+      "foodNutrientId": 13692300,
+      "nutrientId": 1079,
+      "amount": 4.4
+    },
+    {
+      "productId": 1106304,
+      "foodNutrientId": 13692301,
+      "nutrientId": 1087,
+      "amount": 0.0
+    },
+    {
+      "productId": 1106304,
+      "foodNutrientId": 13692302,
+      "nutrientId": 1089,
+      "amount": 0.8
+    },
+    {
+      "productId": 1106304,
+      "foodNutrientId": 13692303,
+      "nutrientId": 1093,
+      "amount": 0.0
+    },
+    {
+      "productId": 1106304,
+      "foodNutrientId": 13692304,
+      "nutrientId": 1104,
+      "amount": 0.0
+    },
+    {
+      "productId": 1106304,
+      "foodNutrientId": 13692305,
+      "nutrientId": 1162,
+      "amount": 0.0
+    },
+    {
+      "productId": 1106304,
+      "foodNutrientId": 13692306,
+      "nutrientId": 1253,
+      "amount": 0.0
+    },
+    {
+      "productId": 1106304,
+      "foodNutrientId": 13692307,
+      "nutrientId": 1257,
+      "amount": 0.0
+    },
+    {
+      "productId": 1106304,
+      "foodNutrientId": 13692308,
+      "nutrientId": 1258,
+      "amount": 0.0
+    },
+    {
+      "productId": 1106312,
+      "foodNutrientId": 13643831,
+      "nutrientId": 1003,
+      "amount": 0.0
+    },
+    {
+      "productId": 1106312,
+      "foodNutrientId": 13643832,
+      "nutrientId": 1004,
+      "amount": 0.0
+    },
+    {
+      "productId": 1106312,
+      "foodNutrientId": 13643833,
+      "nutrientId": 1005,
+      "amount": 26.7
+    },
+    {
+      "productId": 1106312,
+      "foodNutrientId": 13643834,
+      "nutrientId": 1008,
+      "amount": 117
+    },
+    {
+      "productId": 1106312,
+      "foodNutrientId": 13643835,
+      "nutrientId": 2000,
+      "amount": 23.3
+    },
+    {
+      "productId": 1106312,
+      "foodNutrientId": 13643836,
+      "nutrientId": 1079,
+      "amount": 3.3
+    },
+    {
+      "productId": 1106312,
+      "foodNutrientId": 13643837,
+      "nutrientId": 1087,
+      "amount": 0.0
+    },
+    {
+      "productId": 1106312,
+      "foodNutrientId": 13643838,
+      "nutrientId": 1089,
+      "amount": 0.0
+    },
+    {
+      "productId": 1106312,
+      "foodNutrientId": 13643839,
+      "nutrientId": 1093,
+      "amount": 700
+    },
+    {
+      "productId": 1106312,
+      "foodNutrientId": 13643840,
+      "nutrientId": 1104,
+      "amount": 667
+    },
+    {
+      "productId": 1106312,
+      "foodNutrientId": 13643841,
+      "nutrientId": 1162,
+      "amount": 0.0
+    },
+    {
+      "productId": 1106312,
+      "foodNutrientId": 13643842,
+      "nutrientId": 1253,
+      "amount": 0.0
+    },
+    {
+      "productId": 1106312,
+      "foodNutrientId": 13643843,
+      "nutrientId": 1257,
+      "amount": 0.0
+    },
+    {
+      "productId": 1106312,
+      "foodNutrientId": 13643844,
+      "nutrientId": 1258,
+      "amount": 0.0
+    },
+    {
+      "productId": 1106456,
+      "foodNutrientId": 13688079,
+      "nutrientId": 1003,
+      "amount": 0.0
+    },
+    {
+      "productId": 1106456,
+      "foodNutrientId": 13688080,
+      "nutrientId": 1004,
+      "amount": 0.0
+    },
+    {
+      "productId": 1106456,
+      "foodNutrientId": 13688081,
+      "nutrientId": 1005,
+      "amount": 83.3
+    },
+    {
+      "productId": 1106456,
+      "foodNutrientId": 13688082,
+      "nutrientId": 1008,
+      "amount": 333
+    },
+    {
+      "productId": 1106456,
+      "foodNutrientId": 13688083,
+      "nutrientId": 2000,
+      "amount": 66.7
+    },
+    {
+      "productId": 1106456,
+      "foodNutrientId": 13688084,
+      "nutrientId": 1093,
+      "amount": 0.0
+    },
+    {
+      "productId": 1106457,
+      "foodNutrientId": 13688013,
+      "nutrientId": 1003,
+      "amount": 0.0
+    },
+    {
+      "productId": 1106457,
+      "foodNutrientId": 13688014,
+      "nutrientId": 1004,
+      "amount": 0.0
+    },
+    {
+      "productId": 1106457,
+      "foodNutrientId": 13688015,
+      "nutrientId": 1005,
+      "amount": 83.3
+    },
+    {
+      "productId": 1106457,
+      "foodNutrientId": 13688016,
+      "nutrientId": 1008,
+      "amount": 333
+    },
+    {
+      "productId": 1106457,
+      "foodNutrientId": 13688017,
+      "nutrientId": 2000,
+      "amount": 83.3
+    },
+    {
+      "productId": 1106457,
+      "foodNutrientId": 13688018,
+      "nutrientId": 1093,
+      "amount": 0.0
+    }
+  ]
+}
